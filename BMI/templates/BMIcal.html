@@ -1,0 +1,11 @@
+BMI is {{Result}} and you are:
+
+{% if Result < 18.5 %}
+    Underweight
+{% elif Result >= 18.5 and Result < 24.9 %}
+    Normal Weight
+{% elif Result >= 25 and Result < 29.9 %}
+    Normal Weight 
+{% elif Result >= 30 %}
+    Obesity
+{% endif %}
